@@ -1,0 +1,13 @@
+""""
+** SYMPTOMS FOR TESTING**
+Fever
+Chills
+Headache
+Nausea
+Vomiting
+Muscle pain
+Fatigue
+Sweating
+Abdominal pain
+Diarrhea
+"""
