@@ -19,7 +19,7 @@ def llm_response(symptoms):
                 5. **No Extra Content:** Provide only the names of suggested lab tests without additional comments or text.
                 6. **Conclusion with Takeaway:** End your response with a takeaway statement, advising the patient to upload an image of their test results for further assistance.
                 7. **Language Response:** If the symptoms are provided in Swahili, respond in Swahili; otherwise, respond in English. If the symptoms contain both languages, ensure that your response includes both.
-                8. ** Responses format:** the response should be in """""""" and the response list should be in the following format "\\n 1.,\\n 2.,\\n 3
+                8. ** Responses format:** the response should be in """""""" and the response list should be in the following format "\n 1.,\n 2.,\n 3
 
                 Your response should demonstrate care and professionalism while clearly listing potential diseases, the necessary lab tests, and a concluding statement about uploading test results."""
             },
