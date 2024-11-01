@@ -6,7 +6,7 @@ client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 def llm_response(symptoms):
     completion = client.chat.completions.create(
-        model="llama3-groq-70b-8192-tool-use-preview",
+        model="llama-3.1-70b-versatile",
         messages=[
             {
                 "role": "system",
