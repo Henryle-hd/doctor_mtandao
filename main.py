@@ -12,10 +12,10 @@ logo_url = "./home_health_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"
 st.image(logo_url, width=100)
 st.title("Doctor Mtandao🧑‍⚕️")
 
-st.sidebar.markdown("What to test?")
-st.sidebar.markdown("Upload test results")
+# st.sidebar.markdown("What to test?")
+# st.sidebar.markdown("Upload test results")
 
-symptoms=st.text_area(label="🏥🏠🩺",placeholder="Enter symptom (e.g. Fever, Cough, Headache, etc.)")
+symptoms=st.text_area(label="🏥🏠🩺",placeholder="Enter symptom (e.g. I feel tired, and I have a slight fever and congestion., etc.)")
 
 if st.button("Send to doctor"):
     if symptoms:
