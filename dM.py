@@ -6,7 +6,7 @@ client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 def llm_response(symptoms):
     completion = client.chat.completions.create(
-        model="meta-llama/llama-4-scout-17b-16e-instruct",
+        model="deepseek-r1-distill-llama-70b",
         messages=[
             {
                 "role": "system",
